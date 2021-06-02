@@ -1,6 +1,6 @@
 {
-    "short_name": "Authentication",
-    "name": "Authentication App",
+    "short_name": "Auth",
+    "name": "Auth App",
     "icons": [
         {
             "src": "images/logo.png",
