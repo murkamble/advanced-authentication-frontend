@@ -14,10 +14,10 @@ const App = () => {
       <div>
         <Switch>
         <PrivateRoute exact path="/" component={PrivateScreen} />
-          <Route path="/login" component={LoginScreen} />
-          <Route path="/register" component={RegisterScreen} />
-          <Route path="/forgotpassword" component={ForgotPasswordScreen} />
-          <Route path="/passwordreset/:resetToken" component={ResetPasswordScreen} />
+          <Route exact path="/login" component={LoginScreen} />
+          <Route exact path="/register" component={RegisterScreen} />
+          <Route exact path="/forgotpassword" component={ForgotPasswordScreen} />
+          <Route exact path="/passwordreset/:resetToken" component={ResetPasswordScreen} />
         </Switch>
       </div>
     </Router>
